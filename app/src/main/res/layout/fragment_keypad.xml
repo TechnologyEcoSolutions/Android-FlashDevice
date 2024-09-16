@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="@dimen/_300sdp"
+    android:layout_height="@dimen/_360sdp"
+    android:layout_gravity="bottom|center"
+    android:gravity="center"
+    android:background="@drawable/shape"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_num_input"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_56sdp"
+        android:gravity="center"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@color/black"
+        android:textSize="@dimen/_28sdp" />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/black" />
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_56sdp">
+
+        <TextView
+            android:id="@+id/tv_num1"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/swap_color"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_24sdp" />
+
+        <TextView
+            android:id="@+id/tv_num2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/swap_color"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="2"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_24sdp" />
+
+        <TextView
+            android:id="@+id/tv_num3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/swap_color"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="3"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_24sdp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_56sdp">
+
+        <TextView
+            android:id="@+id/tv_num4"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/swap_color"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="4"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_24sdp" />
+
+        <TextView
+            android:id="@+id/tv_num5"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/swap_color"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="5"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_24sdp" />
+
+        <TextView
+            android:id="@+id/tv_num6"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/swap_color"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="6"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_24sdp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_56sdp">
+
+        <TextView
+            android:id="@+id/tv_num7"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/swap_color"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="7"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_24sdp" />
+
+        <TextView
+            android:id="@+id/tv_num8"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/swap_color"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="8"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_24sdp" />
+
+        <TextView
+            android:id="@+id/tv_num9"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/swap_color"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="9"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_24sdp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_56sdp">
+
+        <TextView
+            android:id="@+id/tv_num_sao"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/swap_color"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="*"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_24sdp" />
+
+        <TextView
+            android:id="@+id/tv_num0"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/swap_color"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_24sdp" />
+
+        <TextView
+            android:id="@+id/tv_num_thang"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/swap_color"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center"
+            android:text="#"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_24sdp" />
+    </TableRow>
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_marginBottom="@dimen/_20sdp"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:layout_height="@dimen/_56sdp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1" />
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/bt_dismiss"
+                android:layout_width="@dimen/_54sdp"
+                android:layout_height="@dimen/_54sdp"
+                android:layout_weight="1"
+                android:background="@drawable/bg_deny_call"
+                android:src="@drawable/ic_call_end" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_delete"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/swap_color"
+            android:gravity="center"
+            android:text="x"
+            android:textColor="@color/black"
+            android:textSize="@dimen/_24sdp" />
+    </TableRow>
+</LinearLayout>

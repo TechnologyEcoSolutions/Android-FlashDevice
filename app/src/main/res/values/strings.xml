@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">ColorFlashScreen</string>
+    <string name="call_screen">Call Screen</string>
+    <string name="download1">Download</string>
+    <string name="colorful_gifs">Colorful GIFs</string>
+    <string name="call_setting">Call Setting</string>
+    <string name="apply">Apply</string>
+    <string name="hidden_number">Hidden Number</string>
+    <string name="calling">Calling:</string>
+    <string name="_00_00">00:00</string>
+    <string name="download">Download</string>
+    <string name="unknown">Unknown Number</string>
+    <string name="choose_image">Choose Image</string>
+    <string name="b_n_c_mu_n_ch_n_nh_n_y_kh_ng">Bạn có muốn chọn ảnh này không ?</string>
+    <string name="choose_photo_from_gallery">Choose Photo From Gallery</string>
+    <string name="gallery">Gallery</string>
+    <string name="applied">Applied</string>
+    <string name="love_it">Love it</string>
+    <string name="close">Close</string>
+    <string name="successfully">Successfully !!!</string>
+    <string name="screen_is_selected">screen is selected</string>
+    <string name="back_to_list">Back </string>
+    <string name="back_to_home">Back </string>
+    <string name="incoming_call">Incoming call</string>
+    <string name="on_going_call">Ongoing call</string>
+    <string name="end_call">End call</string>
+    <string name="permission">Permission</string>
+    <string name="contact">Contact</string>
+    <string name="phone">Phone</string>
+    <string name="memory">Memory</string>
+    <string name="call_logs">Call logs</string>
+    <string name="camera">Camera</string>
+    <string name="screen_rights">Screen rights</string>
+    <string name="grant_permission">Grant those Permission</string>
+</resources>

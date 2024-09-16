@@ -1,0 +1,3 @@
+include ':rate'
+include ':app'
+rootProject.name = "ColorFlashScreen"

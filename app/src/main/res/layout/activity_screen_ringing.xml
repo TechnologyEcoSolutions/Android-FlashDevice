@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/iv_screen_call"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_exam" />
+
+        <TextView
+            android:id="@+id/tv_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="@dimen/_80sdp"
+            android:text="Lucy"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_26sdp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/phone_number"
+            android:layout_width="wrap_content"
+            android:textSize="@dimen/_24sdp"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:textColor="@color/white"
+            android:text="000"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_name" />
+
+        <TextView
+            android:id="@+id/tv_status"
+            android:layout_width="wrap_content"
+            android:textSize="@dimen/_18sdp"
+            android:layout_marginTop="@dimen/_25sdp"
+            android:textColor="@color/white"
+            android:text="@string/incoming_call"
+            android:layout_height="wrap_content"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/phone_number" />
+
+        <ImageButton
+            android:id="@+id/bt_dismiss"
+            android:layout_width="@dimen/_54sdp"
+            android:layout_height="@dimen/_54sdp"
+            android:layout_marginStart="@dimen/_50sdp"
+            android:layout_marginTop="@dimen/_180sdp"
+            android:background="@drawable/bg_deny_call"
+            android:scaleType="center"
+            android:src="@drawable/ic_call_end"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_name" />
+
+        <ImageButton
+            android:id="@+id/bt_answer"
+            android:layout_width="@dimen/_54sdp"
+            android:layout_height="@dimen/_54sdp"
+            android:layout_gravity="center_vertical|right"
+            android:layout_marginTop="@dimen/_180sdp"
+            android:layout_marginEnd="@dimen/_50sdp"
+            android:background="@drawable/bg_accept_call"
+            android:scaleType="center"
+            android:src="@drawable/ic_baseline_call"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_name" />
+
+        <ImageButton
+            android:id="@+id/bt_reject"
+            android:layout_width="@dimen/_54sdp"
+            android:layout_height="@dimen/_54sdp"
+            android:layout_marginTop="@dimen/_180sdp"
+            android:background="@drawable/bg_deny_call"
+            android:scaleType="center"
+            android:visibility="invisible"
+            android:src="@drawable/ic_call_end"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/tv_name" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "888129923586",
+    "project_id": "color-call-flash-155ba",
+    "storage_bucket": "color-call-flash-155ba.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:888129923586:android:129cdfabbf50978f50151b",
+        "android_client_info": {
+          "package_name": "com.color.call.flash.screen.themes"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "888129923586-uginuklcu6f57jov79r9sn5g4s0ivt3n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAvHBKjFDVP3sIR51mmu9a3kYLf7Nf00Ss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "888129923586-uginuklcu6f57jov79r9sn5g4s0ivt3n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
